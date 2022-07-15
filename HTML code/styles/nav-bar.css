@@ -1,0 +1,105 @@
+
+/* Navigation Bar Styles */
+.navigation-bar{
+    display: flex;
+    color: white;
+    background-color:black;
+    height:100px;
+    align-items: center;
+    padding:0px;
+    margin: 0px;
+}
+/* Left Column Styles */
+.navigation-bar > .left-column > .image img{
+    height: 50px;
+    width: 250px;
+}
+/* Center Column Styles with Link Styles*/
+.navigation-bar > .center-column{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding-left:30px;
+    padding-right: 30px;
+}
+.navigation-bar > .center-column > .disclaimer span{
+    color:rgb(230,230,0);
+}
+.navigation-bar > .center-column > .navigation-links{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:max-content;
+}
+.navigation-bar > .center-column > .navigation-links > .nav-link{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    margin:5px;
+}
+.navigation-bar > .center-column > .dropdown{
+    width:75px;
+}
+.navigation-bar > .center-column > .navigation-links span:nth-of-type(1){
+    margin-left: 20px;
+    color: rgb(174, 174, 174);
+}
+.navigation-bar > .center-column > .navigation-links span:nth-of-type(2){
+    margin-left: 5px;
+    font-size: 20px;
+    color: white;
+}
+/* Right Column Styles */
+.navigation-bar > .right-column{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    color: white;
+    font-weight: bold;
+}
+.navigation-bar > .right-column > .dropdown{
+    margin-left:60px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:125px;
+}
+.navigation-bar > .right-column > .dropdown button{
+    width:100px;
+}
+.navigation-bar > .right-column > .dropdown button:active{
+    box-shadow: inset 0px 0px 15px 2px #000000; 
+}
+.navigation-bar > .right-column > .dropdown span:nth-of-type(2){
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 2em;
+    color:green;
+    margin-left: 5px;
+    margin-bottom:13px;
+}
+.navigation-bar > .right-column > .icon{
+    font-size: 2em;
+    color: grey;
+    margin: 0px 20px 0px 200px;
+    margin-left: 10px;
+}
+.navigation-bar > .right-column > .buttons{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:210px;
+}
+.navigation-bar > .right-column > .buttons > .button button{
+    height: 3rem;
+    width:100px;
+}
+.navigation-bar > .right-column > .buttons button:nth-of-type(2){
+    margin-left:10px;
+}
+.navigation-bar > .right-column > .buttons > .button button:active{
+    box-shadow: inset 0px 0px 15px 2px #000000; 
+}
+/* End of Navigation Bar Styles */
